@@ -17,6 +17,8 @@ public class App
         logger.info("Traza desde logger");    
         
         logger.info("Patata devuelve {}", devuelvePatata());
+        
+        logger.info("Piloro devuelve {}", devuelvePiloro());
     }
     
     public static String devuelvePatata()

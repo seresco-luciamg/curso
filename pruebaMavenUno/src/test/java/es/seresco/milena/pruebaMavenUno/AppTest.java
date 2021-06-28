@@ -24,5 +24,12 @@ public class AppTest
     	assertTrue(App.devuelvePatata().toUpperCase().equals("..."));
     	assertEquals(App.devuelvePatata().toUpperCase(), "...");
     }
+    
+    @Test
+    public void testDevuelvePiloro()
+    {    	    	
+    	assertEquals("PILORO", App.devuelvePiloro().toUpperCase());    	
+    }
+
 
 }
